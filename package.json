@@ -1,0 +1,26 @@
+{
+  "name": "web3",
+  "version": "1.0.0",
+  "description": "web3 and smart contract ethereum course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nascVi/web3.git"
+  },
+  "keywords": [
+    "ethereum",
+    "js"
+  ],
+  "author": "lpChamps`",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nascVi/web3/issues"
+  },
+  "homepage": "https://github.com/nascVi/web3#readme",
+  "dependencies": {
+    "web3": "^1.6.1"
+  }
+}
