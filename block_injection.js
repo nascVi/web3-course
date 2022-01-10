@@ -10,10 +10,18 @@ let web3 = new Web3(url)
 //     console.log(block);
 // })
 
-web3.eth.getBlockNumber().then((result)=>{
-    for(let i=0;i<100;i++){
-        web3.eth.getBlock(result-i).then((block)=>{
-            console.log(block.number);
-        })
-    };
+// web3.eth.getBlockNumber().then((result)=>{
+//     for(let i=0;i<100;i++){
+//         web3.eth.getBlock(result-i).then((block)=>{
+//             console.log(block.number);
+//         })
+//     };
+// })
+
+// web3.eth.getBlock('pending').then((block)=>{ // strings: pending, latest
+//     console.log(block.number);
+// })
+
+web3.eth.getBlock('0x8ad15342dc0a9c20cc6169f90497e62cff781f3e62971a0e4a407ada33d7427d').then((block)=>{ // by the hash
+    console.log(block.number);
 })
